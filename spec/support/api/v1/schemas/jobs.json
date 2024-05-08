@@ -1,0 +1,29 @@
+{
+  "type": "array",
+  "items": {
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "title": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "hired_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "rejected_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "ongoing_count": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}

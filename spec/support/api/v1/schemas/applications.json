@@ -1,0 +1,28 @@
+{
+  "type": "array",
+  "items": {
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "job_title": {
+        "type": "string"
+      },
+      "candidate_name": {
+        "type": "string"
+      },
+      "status": {
+        "type": ["string", "null"]
+      },
+      "notes_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "interview_date": {
+        "type": ["string","null"],
+        "format": "datetime"
+      }
+    }
+  }
+}
